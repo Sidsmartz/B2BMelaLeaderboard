@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import Home from './components/Home';
 import Admin from './components/Admin';
 import LeaderboardPage from './components/LeaderboardPage';
+import StyledLeaderboard from './components/StyledLeaderboard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<ProtectedAdmin />} />
           <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/styled-leaderboard" element={<StyledLeaderboard />} />
         </Routes>
       </Router>
     </div>
